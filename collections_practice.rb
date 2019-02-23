@@ -1,4 +1,6 @@
-
+def sort_array_asc(array)
+  array.sort
+end
 
 def swap_elements(array)
   array.insert(1,array.delete_at(2))
